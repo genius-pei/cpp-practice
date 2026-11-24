@@ -36,6 +36,7 @@
 
 | 路径 | 内容 |
 |---|---|
+| `process/mini-shell/` | 迷你 shell：提示符拼装、读入行切分、`fork`+`exec` 执行外部命令、`wait` 回收，89 行 |
 | `process/progress-bar/` | 终端进度条：`\r` 覆盖刷新、旋转光标、100% 边界与「已完成」状态机，由模拟下载循环驱动 |
 | `process/fork-basics/` | `fork()` 返回值三路分支、`getpid` / `getppid` 观察父子关系 |
 | `process/wait-and-exit/` | `fork` + `wait()` 回收子进程避免僵尸；`orphan-loop.c` 观察父进程先退后孤儿子进程被 init 接管 |
