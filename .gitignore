@@ -1,0 +1,22 @@
+# 编译产物
+*.o
+*.obj
+*.exe
+a.out
+
+# 进程练习的可执行文件
+process/progress-bar/main
+process/fork-basics/process
+process/fork-basics/myprocess
+process/wait-and-exit/fork-wait
+process/wait-and-exit/orphan-loop
+
+# 单文件练习的产物
+mystring
+variadic-print
+smart-pointer
+malloc-vs-new
+sliding-window
+hashtest
+reverse-string
+sum-range
